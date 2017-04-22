@@ -1,0 +1,32 @@
+  [
+    {
+      "title": "Atlantis",
+      "publication": "2007",
+      "filePath": "poems/atlantis.txt"
+    },
+
+    {
+      "title": "Heroic",
+      "publication": "1998",
+      "filePath": "poems/heroic.txt"
+    },
+
+    {
+      "title": "Amethyst Beads",
+      "publication": "2013",
+      "filePath": "poems/amethystbeads.txt"
+    },
+
+    {
+      "title": "Quarantine",
+      "publication": "2008",
+      "filePath": "poems/quarantine.txt"
+    },
+
+    {
+      "title": "The Pomegranate",
+      "publication": "1994",
+      "filePath": "poems/pomegranate.txt"
+    }
+
+  ]

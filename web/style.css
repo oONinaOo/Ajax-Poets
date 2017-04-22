@@ -1,0 +1,155 @@
+body {
+	background-color: #E2C68A;
+}
+
+.logintext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+	-webkit-text-stroke: 1px #2c3a67;
+	z-index: -1;
+}
+.loginfield{
+	background-color: rgba(255,255,255,0.5);
+	color: black;
+}
+
+.button {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #2eaaf4;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 18px;
+	padding: 0px;
+	width: 75px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 1px;
+}
+
+.button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.button span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -5px;
+	transition: 0.5s;
+}
+
+.button:hover span {
+	padding-right: 25px;
+}
+
+.button:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+.loggedintext{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+	-webkit-text-stroke: 1px #2c3a67;
+	z-index: -1;
+}
+.welcometext {
+	position: absolute;
+	top:238px;
+	left: 600px;
+	width: 350px;
+	height: 380px;
+	overflow: auto;
+	transform:rotate(-4deg);
+}
+
+.welcomeheader{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	color: black;
+	-webkit-text-stroke: 1px #ffffff;
+	z-index: -1;
+	text-shadow: 10px 10px 5px #333333
+}
+
+.welcomeabout{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 23px;
+	font-style: italic;
+	color: black;
+	
+}
+
+.indextext{
+	position: absolute;
+	top:270px;
+	left: 975px;
+	width: 330px;
+	height: 360px;
+	overflow: auto;
+}
+
+.indexscripttext{
+	font-family: "Segoe Print";
+	font-size: 18px;
+	font-style: italic;
+	color: black;
+
+}
+
+.poemsloaded{
+	background-color: Transparent;
+	border: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+}
+
+.clipboard{
+	position: absolute;
+	top:270px;
+	left: 975px;
+	width: 330px;
+	height: 360px;
+	overflow: auto;
+	font-family: Calibri;
+	font-size: 14px;
+	font-style: italic;
+	color: black;
+
+}
+
+.click{
+	position: absolute;
+	top:50px;
+	left:50px;
+	opacity: 0.6;
+}
+
+::-webkit-scrollbar
+{
+	width: 12px;
+	height: 12px;
+}
+
+::-webkit-scrollbar-track
+{
+	background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb
+{
+	background: rgba(0, 0, 0, 0.5);
+}

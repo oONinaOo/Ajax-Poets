@@ -65,11 +65,27 @@
 
 <div class="welcometext">
     <img src="images/click.png" id="poems" class="click">
-
     <div id="getpoems"></div>
 </div>
 <div class="clipboard">
     <div id="poemContent"></div>
+</div>
+<div class="polaroid">
+    <div id="authorpicture"></div>
+    <script>
+            //var img = document.createElement("image");
+            var cookieName = document.cookie;
+            var getName = cookieName.match(/[A-Z][a-z]+|[0-9]+/g).join("");
+            var lower= getName.toLowerCase();
+            document.getElementById("authorpicture").innerHTML="<img src='images/" + lower + ".png'/>";
+            //img.src="images/" + lower +".png";
+            //img.id="picture";
+            //var add = document.getElementById("authorpicture");
+            //add.appendChild(img);
+            //document.getElementById("authorpicture").innerHTML = img.src;
+
+
+    </script>
 </div>
 <script src="./poems/poems.js"></script>
 </body>

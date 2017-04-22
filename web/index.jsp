@@ -58,7 +58,5 @@
 	<p><span class="indexscripttext">The famous writer Salman Rushdie said that "A poet's work is to name the unnameable, to point at frauds, to take sides, start arguments, shape the world, and stop it going to sleep." This respect and fascination for poetry has spread throughout the world, and the medium's incredible popularity has only grown. </span> </p>
   </div>
 </div>
-
-
 </body>
 </html>

@@ -1,12 +1,6 @@
-import sun.security.krb5.internal.AuthorizationData;
-
-import javax.servlet.RequestDispatcher;
 import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.Base64;
 import java.util.Map;
 
 
@@ -44,16 +38,5 @@ public class Login extends javax.servlet.http.HttpServlet {
     protected void doGet(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
 
     }
-    private boolean validAuthor(String auth){
-        if(auth == null){
-            return false;
-        }
-        if(!auth.toUpperCase().startsWith("BASIC")){
-            return true;
-        }
-        String decode = new String(Base64.getDecoder().decode(auth.substring(6)));
-        return authors.get(decode);
-    }
-
 
 }

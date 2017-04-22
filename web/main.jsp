@@ -24,18 +24,18 @@
 <body bgcolor="#ffffff">
 <table width="1150" border="0" align="center" cellpadding="0" cellspacing="0">
     <tr>
-        <td><img src="images/spacer.gif" width="431" height="1" border="0" alt="" /></td>
-        <td><img src="images/spacer.gif" width="341" height="1" border="0" alt="" /></td>
-        <td><img src="images/spacer.gif" width="378" height="1" border="0" alt="" /></td>
-        <td><img src="images/spacer.gif" width="1" height="1" border="0" alt="" /></td>
+        <td><img src="images/spacer.gif" width="431" height="1" border="0" /></td>
+        <td><img src="images/spacer.gif" width="341" height="1" border="0" /></td>
+        <td><img src="images/spacer.gif" width="378" height="1" border="0" /></td>
+        <td><img src="images/spacer.gif" width="1" height="1" border="0" /></td>
     </tr>
 
     <tr>
-        <td colspan="3"><img name="header" src="images/header.png" width="1150" height="91" border="0" id="header" alt="" /></td>
-        <td><img src="images/spacer.gif" width="1" height="91" border="0" alt="" /></td>
+        <td colspan="3"><img name="header" src="images/header.png" width="1150" height="91" border="0" id="header" /></td>
+        <td><img src="images/spacer.gif" width="1" height="91" border="0"/></td>
     </tr>
     <tr>
-        <td rowspan="2"><img name="left" src="images/left.png" width="431" height="559" border="0" id="left" alt="" /></td>
+        <td rowspan="2"><img name="left" src="images/left.png" width="431" height="559" border="0" id="left"/></td>
       <td valign="top" background="images/login.png">
             <table width="333" border="0">
               <tr>
@@ -54,12 +54,12 @@
               </form>
               </tr>
             </table>
-            <td rowspan="2"><img name="right" src="images/right.png" width="378" height="559" border="0" id="right" alt="" /></td>
-        <td><img src="images/spacer.gif" width="1" height="61" border="0" alt="" /></td>
+            <td rowspan="2"><img name="right" src="images/right.png" width="378" height="559" border="0" id="right" /></td>
+        <td><img src="images/spacer.gif" width="1" height="61" border="0" /></td>
     </tr>
     <tr>
-        <td><img name="mid" src="images/mid.png" width="341" height="498" border="0" id="mid" alt="" /></td>
-        <td><img src="images/spacer.gif" width="1" height="498" border="0" alt="" /></td>
+        <td><img name="mid" src="images/mid.png" width="341" height="498" border="0" id="mid" /></td>
+        <td><img src="images/spacer.gif" width="1" height="498" border="0" /></td>
     </tr>
 </table>
 
